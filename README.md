@@ -18,4 +18,8 @@ The function takes one int argument `size`. In the function do the following
   * Print the array element by element on a single line, separated by commas.
   * Free the memory of the array.
 
-Modify main.cpp in order to test exercise 2.
+Modify the files main.cpp and exercises.h in order to test exercise 2.
+
+## Exercise 3: class (ex3_class)
+The exercise is to write a class, that provides a wrapper for an array of int.
+Access and size should be controlled.
