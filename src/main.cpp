@@ -2,7 +2,7 @@
 #include "exercises.h"
 
 void run_exercise() {
-  ex1_fizz_buzz();
+  ex2_array(30);
 }
 
 void setup() {
