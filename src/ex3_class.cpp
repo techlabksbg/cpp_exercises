@@ -13,6 +13,21 @@ void Ex3_Array::setSize(int newsize) {
     size = newsize;
 }
 
+bool Ex3_Array::put(int index, int value) {
+    if (index<0 || index>=size) {
+        return false;
+    }
+    numbers[index] = value;
+    return true;
+}
+
+int Ex3_Array::get(int index) {
+    if (index<0 || index>=size) {
+        Serial.printf("Array access outside bounds at %d (maxiumum %d)\n", index, size-1);
+        return 0;
+    }
+    return numbers[index];
+}
 /**
  * Destructor
  * This function is called, when the object
@@ -48,8 +63,9 @@ bool Ex3_Array::test() {
         Serial.println("put(10,23) should fail, but it return true");
         return false;
     }
-    if (get(10)!=23) {
+    if (get(10)!=0) {
         Serial.printf("get(10) should return 0, but it returns %d\n",get(10));
+        return false;
     }
     setSize(5);
     if (size!=5) {
