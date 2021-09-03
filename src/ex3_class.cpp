@@ -6,7 +6,11 @@
  * Discardes the old one, if it exists
  */
 void Ex3_Array::setSize(int size) {
-    // manage the variables 'numbers' and 'size'
+    if (numbers) {
+        delete[] numbers;
+    }
+    numbers = new int[size];
+    this->size = size;
 }
 
 /**
