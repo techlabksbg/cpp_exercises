@@ -5,12 +5,12 @@
  * Allocates a new array of this size.
  * Discardes the old one, if it exists
  */
-void Ex3_Array::setSize(int size) {
+void Ex3_Array::setSize(int newsize) {
     if (numbers) {
         delete[] numbers;
     }
-    numbers = new int[size];
-    this->size = size;
+    numbers = new int[newsize];
+    size = newsize;
 }
 
 /**
