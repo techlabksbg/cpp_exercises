@@ -6,7 +6,7 @@
  * Discardes the old one, if it exists
  */
 void Ex3_Array::setSize(int newsize) {
-    // manage the variables 'numbers' and 'size'
+	// manage the variables 'numbers' and 'size'
 }
 
 /**
