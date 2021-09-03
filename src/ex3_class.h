@@ -2,6 +2,8 @@
  * author Ivo Blöchliger
  */
 
+#include <Arduino.h>
+
 class Ex3_Array {
 public:
     /**
