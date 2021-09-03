@@ -3,7 +3,7 @@
  */
 
 class Ex3_Array {
-
+public:
     /**
      * Allocates a new array of this size.
      * Discardes the old one, if it exists
