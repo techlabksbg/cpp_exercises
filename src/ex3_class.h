@@ -8,7 +8,7 @@ public:
      * Allocates a new array of this size.
      * Discardes the old one, if it exists
      */
-    void setSize(int size);
+    void setSize(int newsize);
 
     /**
      * returns the element at index or

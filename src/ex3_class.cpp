@@ -5,7 +5,7 @@
  * Allocates a new array of this size.
  * Discardes the old one, if it exists
  */
-void Ex3_Array::setSize(int size) {
+void Ex3_Array::setSize(int newsize) {
     // manage the variables 'numbers' and 'size'
 }
 
