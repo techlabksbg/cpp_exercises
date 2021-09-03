@@ -2,7 +2,9 @@
 #include "exercises.h"
 
 void run_exercise() {
-  ex2_array(30);
+  //ex1_fizz_buzz();
+  //ex2_array(30);
+  Ex3_Array::ex3_class();
 }
 
 void setup() {
